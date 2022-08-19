@@ -1,7 +1,4 @@
-# AstroWind Template
-
-<img src="performance.png" align="right"
-     alt="Performance" width="100" height="358">
+# AstroWind Page
 
 A template to make your website using **Astro + Tailwind CSS**. Ready to start a new project and designed taking into account best practices.
 
@@ -17,57 +14,8 @@ A template to make your website using **Astro + Tailwind CSS**. Ready to start a
   - 100 Performance, 100 Accessibility, 100 Best Practices, 100 SEO
 
 <br>
-
-<img src="./screenshot.png" alt="AstroWind Image">
      
-[Live demo](https://astrowind.vercel.app/)
-
 <br>
-
-## 📗 Project Structure
-
-Inside AstroWind template, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   ├── robots.txt
-│   └── favicon.ico
-├── src/
-│   ├── assets/
-│   │   ├── images/
-|   |   └── styles/
-|   |       └── base.css
-│   ├── data/
-|   |   └── posts/
-|   |       └── post-1.md
-|   |       └── ...
-│   ├── components/
-│   │   ├── core/
-|   |   ├── icons/
-|   |   └── widgets/
-|   |       └── Header.astro
-|   |       └── Footer.astro
-|   |       └── ...
-│   ├── layouts/
-│   |   |── Base.astro
-│   |   └── ...
-│   ├── pages/
-│   |   ├── blog/
-│   |   ├── index.astro
-|   |   └── 404.astro
-│   └── utils/
-└── package.json
-└── ...
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the assets folder if they are imported directly.
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 <br>
 
@@ -83,19 +31,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview` | Preview your build locally, before deploying |
 
 <br>
-
-## 🚧 Roadmap
-
-- *Config*: Move specific configurations to a specialized file
-- *Project structure*: ~~Reduce the complexity in the components folder and simplify the other folders to make it very easy to use.~~ (DONE! Testing)
-- *SEO*: ~~Add support to easily manage SEO meta-tags (title, description, canonical, social sharing, ...)~~ (DONE! Testing)
-- *Blog*: ~~Add support for fast, accessible, and SEO friendly blog~~ (DONE! Testing)
-- *More components*: ~~Add more Tailwind components useful for most scenarios (Features, Contact, Call to Actions, Content, FAQs ...)~~
-- *More Examples*: Add commonly used example pages (Ex: About, Terms, Services...)
-- *Documentation*: Create detailed documentation with best practices and redesign tips
-
-<br>
-
-## 👀 Want more?
-
-If you have any suggestions or find any bugs, feel free to open an issue or create a pull request.
